@@ -8,7 +8,7 @@ This repository is implemented by [Ruibing Jin](https://ruibing-jin.github.io/).
 
 Accurate remaining useful life (RUL) prediction is important in industrial systems. It prevents machines from working under failure conditions, and ensures that the industrial system works reliably and efficiently. Recently, many deep learning based methods have been proposed to predict RUL. Among these methods, recurrent neural network (RNN) based approaches show a strong capability of capturing sequential information. This allows RNN based methods to perform better than convolutional neural network (CNN) based approaches on the RUL prediction task. In this paper, we question this common paradigm and argue that existing CNN based approaches are not designed according to the classic principles of CNN, which reduces their performances. Additionally, the capacity of capturing sequential information is highly affected by the receptive field of CNN, which is neglected by existing CNN based methods. To solve these problems, we propose a series of new CNNs, which show competitive results to RNN based methods. Compared with RNN, CNN processes the input signals in parallel so that the temporal sequence is not easily determined. To alleviate this issue, a position encoding scheme is developed to enhance the sequential information encoded by a CNN. Hence, our proposed position encoding based CNN called PE-Net is further improved and even performs better than RNN based methods. Extensive experiments are conducted on the C-MAPSS dataset, where our PE-Net shows state-of-the-art performance.
 
-<img src='pe_net.png' width='1280' height='450'>
+<img src='pe_net.png' width='1280' height='400'>
 
 ## Disclaimer
 This is an official PyTorch implementation of "[Position Encoding based Convolutional Neural Networks for Machine Remaining Useful Life Prediction](https://ieeexplore.ieee.org/document/9849459)"
@@ -51,7 +51,7 @@ You may try to run it on other enviroments, but the performances may be differen
 3. The directory which you clone our reposity, is denoted as $(PENET). Install other packages in your corresponding conda envirement:
 ```
 cd $(PENET)
-pip -r install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
