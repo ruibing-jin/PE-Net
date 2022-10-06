@@ -13,7 +13,7 @@ Accurate remaining useful life (RUL) prediction is important in industrial syste
 ## Disclaimer
 This is an official PyTorch implementation of "[Position Encoding based Convolutional Neural Networks for Machine Remaining Useful Life Prediction](https://ieeexplore.ieee.org/document/9849459)"
 
-If you have any question regarding the paper, please send a email to `jin_ruibing[at]i2r[dot]a-star[dot]edu[dot]sg`.
+If you have any question regarding the paper, please send an email to `jin_ruibing[at]i2r[dot]a-star[dot]edu[dot]sg`.
 
 ## Citing PE-Net
 If you find PE-Net useful in your research, please consider citing:
